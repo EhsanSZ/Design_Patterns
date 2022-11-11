@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2ed0ed1e-a201-4dc6-9a8b-ceabd1bafcd5": {
+      "ProjectGuid": "2ed0ed1e-a201-4dc6-9a8b-ceabd1bafcd5",
+      "DisplayName": "test",
+      "ColorIndex": 0
+    },
+    "dfd9d434-4b5e-424f-ab67-f2167befb8c6": {
+      "ProjectGuid": "dfd9d434-4b5e-424f-ab67-f2167befb8c6",
+      "DisplayName": "Decorator",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
