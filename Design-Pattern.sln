@@ -5,9 +5,13 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{08A7CE64-AEAF-4270-8E5A-22BA40889A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator_Console", "Decorator\Decorator_Console\Decorator_Console.csproj", "{AD5E6BB7-3119-401B-8C37-BA7892BBEF02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator_Console", "Decorator\Decorator_Console\Decorator_Console.csproj", "{AD5E6BB7-3119-401B-8C37-BA7892BBEF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator_DotNet", "Decorator\Decorator_DotNet\Decorator_DotNet.csproj", "{77E63F84-119B-4058-91CB-398C6BC528FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator_DotNet", "Decorator\Decorator_DotNet\Decorator_DotNet.csproj", "{77E63F84-119B-4058-91CB-398C6BC528FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{772FB96A-DF82-46A8-8D19-C83D79D65A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade_Console", "Facade\Facade_Console\Facade_Console.csproj", "{70382FB8-C119-4FE7-A2F2-3874A32FC4BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{77E63F84-119B-4058-91CB-398C6BC528FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E63F84-119B-4058-91CB-398C6BC528FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E63F84-119B-4058-91CB-398C6BC528FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70382FB8-C119-4FE7-A2F2-3874A32FC4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70382FB8-C119-4FE7-A2F2-3874A32FC4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70382FB8-C119-4FE7-A2F2-3874A32FC4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70382FB8-C119-4FE7-A2F2-3874A32FC4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AD5E6BB7-3119-401B-8C37-BA7892BBEF02} = {08A7CE64-AEAF-4270-8E5A-22BA40889A87}
 		{77E63F84-119B-4058-91CB-398C6BC528FB} = {08A7CE64-AEAF-4270-8E5A-22BA40889A87}
+		{70382FB8-C119-4FE7-A2F2-3874A32FC4BC} = {772FB96A-DF82-46A8-8D19-C83D79D65A95}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B3809CB-3263-4C39-A903-F975AF8B4688}

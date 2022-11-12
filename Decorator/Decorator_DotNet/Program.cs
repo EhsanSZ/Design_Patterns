@@ -23,18 +23,12 @@ namespace Decorator_DotNet
                 _webClient = webClient;
             }
 
-
             public string DownloadString(string address)
             {
-                if (address.StartsWith("https://bugeto.net"))
-                {
+                if (address.StartsWith("https://Ehsansz.ir"))
                     return _webClient.DownloadString(address);
-
-                }
                 else
-                {
                     return string.Empty;
-                }
 
             }
         }

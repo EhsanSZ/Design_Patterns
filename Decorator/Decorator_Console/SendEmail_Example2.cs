@@ -4,17 +4,18 @@ using System.Text;
 
 namespace Decorator_Console
 {
-    public class SendEmail
+    //مثال دوم به ساده ترین حالت
+    public class SendEmail_Example2
     {
         public void Send()
         {
             Console.WriteLine("Email Sended......!");
         }
     }
-    public class SendEmailDecorator:SendEmail
+    public class SendEmailDecorator:SendEmail_Example2
     {
-        private readonly SendEmail _sendEmail;
-        public SendEmailDecorator(SendEmail sendEmail)
+        private readonly SendEmail_Example2 _sendEmail;
+        public SendEmailDecorator(SendEmail_Example2 sendEmail)
         {
             _sendEmail = sendEmail;
         }

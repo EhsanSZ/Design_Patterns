@@ -23,12 +23,4 @@ namespace Decorator_Console
  
         }
     }
-
-    public class Component2
-    {
-        public  void operation()
-        {
-            Console.WriteLine("ConcreteComponent.operation() run.....!");
-        }
-    }
 }
