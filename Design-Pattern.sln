@@ -95,6 +95,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Memento", "Memento", "{EBF6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample_Memento", "Memento\Sample_Memento\Sample_Memento.csproj", "{11EC0155-0EAA-49F2-9C0A-2EDDD5BC1053}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{5E3FF5E4-8211-4ED0-BA57-9497C4FEA900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor\Visitor.csproj", "{96A1A5F7-799F-4991-ABD5-618CA8CA8E8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +213,10 @@ Global
 		{11EC0155-0EAA-49F2-9C0A-2EDDD5BC1053}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11EC0155-0EAA-49F2-9C0A-2EDDD5BC1053}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11EC0155-0EAA-49F2-9C0A-2EDDD5BC1053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A1A5F7-799F-4991-ABD5-618CA8CA8E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A1A5F7-799F-4991-ABD5-618CA8CA8E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A1A5F7-799F-4991-ABD5-618CA8CA8E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A1A5F7-799F-4991-ABD5-618CA8CA8E8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +252,7 @@ Global
 		{CC27E6CB-2046-4428-A56F-D513AB64F351} = {F9F52F9E-9DBD-4E6F-9A05-5199AE5FD02F}
 		{D1738CB4-1C3D-448C-A384-7D7223FA8D31} = {E7CD4308-F639-4108-988B-71E464D315F5}
 		{11EC0155-0EAA-49F2-9C0A-2EDDD5BC1053} = {EBF66C5D-5DDF-45B8-A869-33082F99F8AD}
+		{96A1A5F7-799F-4991-ABD5-618CA8CA8E8D} = {5E3FF5E4-8211-4ED0-BA57-9497C4FEA900}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6B3809CB-3263-4C39-A903-F975AF8B4688}
